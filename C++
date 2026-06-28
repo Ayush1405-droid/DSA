@@ -1,0 +1,27 @@
+(1) FOR ODD AND EVEN
+-LOGIC- Use modulas operator for remainder[ % ]
+= EVEN == n % 2 == 0
+= ODD == n ! % == 0
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(2) COUNT NUMBER OF DIGITS -- TC = O(LOG10N)
+-LOGIC- Divition
+count = 0
+while n>0:
+    n = n // 10
+    count + = 1
+OR
+FORMULA ==[ Log10(n)] + 1
+  { for n > 0 }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(3) PRIME OR NOT
+Logic : A number > 1 is prime if
+it has exactly two factors (1 and itself).
+Optimization :
+. Check divisors from 2 to /n
+. If any divisor found, not prime,
+
+Check for i * I <= n
+
+Example : 17 is prime
+(No divisor between 2 to V17)
+Complexity : O(Vn)
