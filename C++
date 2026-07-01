@@ -25,3 +25,13 @@ Check for i * I <= n
 Example : 17 is prime
 (No divisor between 2 to V17)
 Complexity : O(Vn)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. What is a HashMap?
+student = {
+    "Ayush": 90,
+    "Rahul": 85,
+    "Aman": 95
+}
+ord() returns the Unicode code point (often the same as the ASCII value for common English characters).
+print(ord('a'))
